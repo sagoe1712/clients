@@ -1,0 +1,31 @@
+{
+    "name": "sagoe1712/bi-clients",
+    "description": "This is a list of clients",
+    "autoload": {
+        "psr-4": {
+            "sagoe1712\\BiClients\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:sagoe1712/foundation.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Olayinka Sagoe",
+            "email": "sagoe.olayinka@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "doctrine/dbal": "~2.5",
+        "sagoe1712/foundation": "dev-master"
+    }
+}
