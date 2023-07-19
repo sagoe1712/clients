@@ -52,7 +52,7 @@ class BiClients extends Model
     }
 
     /**
-     * @param string $customerName
+     * @param string $name
      */
     public function setName(string $name): void
     {
